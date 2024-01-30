@@ -1,0 +1,7 @@
+{
+	"filme":{{input_filme_add.text}},
+	"ano":{{input_ano_add.text}},
+	"genero":{{input_genero_add.text}},
+	"descricao":{{input_descricao_add.text}},
+	"poster":{{input_url_add.text}}
+}

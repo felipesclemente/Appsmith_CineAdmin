@@ -1,0 +1,3 @@
+{
+  "email": {{input_recupera.text}}
+}

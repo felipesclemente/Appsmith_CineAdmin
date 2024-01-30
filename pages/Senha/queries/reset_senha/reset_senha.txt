@@ -1,0 +1,3 @@
+{
+	"password": {{input_senha_recupera.text}}
+}
