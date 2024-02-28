@@ -1,4 +1,4 @@
-Projeto que desenvolvi para gerenciamento de um catálogo de filmes, utilizando o Appsmith e o Supabase.
+Projeto que desenvolvi para gerenciamento de um catálogo de filmes, utilizando o Appsmith para o front end e o Supabase para o backend e banco de dados.
 
 É possível cadastrar um usuário novo, sendo necessário confirmar o email de cadastro. No dashboard, há um botão de "Área Restrita", acessível somente para o usuário Admin, aonde é possível adicionar e remover filmes do catálogo. 
 
