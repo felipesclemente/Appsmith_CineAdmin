@@ -20,7 +20,7 @@
     "animateLoading": true,
     "parentColumnSpace": 19.53125,
     "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 26.8544,
+    "leftColumn": 26.85851318944844,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
         {"key": "borderRadius"}
@@ -29,7 +29,7 @@
     "isDisabled": false,
     "key": "lot84aug9r",
     "isDeprecated": false,
-    "rightColumn": 37.1456,
+    "rightColumn": 37.141486810551555,
     "isDefaultClickDisabled": true,
     "iconName": "user",
     "widgetId": "hhf64ztn4k",

@@ -13,13 +13,13 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1126,
+          "bottomRow": 1086,
           "containerStyle": "none",
           "snapRows": 76,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 87,
+          "version": 89,
           "minHeight": 780,
           "useAutoLayout": true,
           "parentColumnSpace": 1,
@@ -53,7 +53,9 @@
               "name": "get_catalogo",
               "confirmBeforeExecute": false,
               "pluginType": "API",
-              "jsonPathKeys": [],
+              "jsonPathKeys": [
+                "appsmith.store.token"
+              ],
               "timeoutInMillisecond": 10000
             }
           ]
