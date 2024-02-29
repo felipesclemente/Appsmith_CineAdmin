@@ -20,7 +20,7 @@
     "animateLoading": true,
     "parentColumnSpace": 19.53125,
     "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 27.857029388403497,
+    "leftColumn": 29.171366594360084,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
         {"key": "borderRadius"}
@@ -29,7 +29,7 @@
     "isDisabled": false,
     "key": "lot84aug9r",
     "isDeprecated": false,
-    "rightColumn": 36.14297061159651,
+    "rightColumn": 34.82863340563992,
     "isDefaultClickDisabled": true,
     "widgetId": "caen53gyqs",
     "minWidth": 120,
