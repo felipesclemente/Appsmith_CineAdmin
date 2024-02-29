@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 866,
+          "bottomRow": 918,
           "containerStyle": "none",
           "snapRows": 76,
           "parentRowSpace": 1,
@@ -33,6 +33,14 @@
                 {
                   "id": "wgr6bw800z",
                   "align": "start"
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "id": "h36og7gev6",
+                  "align": "center"
                 }
               ]
             },
