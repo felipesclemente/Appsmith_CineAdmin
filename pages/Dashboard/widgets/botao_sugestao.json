@@ -2,7 +2,7 @@
     "resetFormOnClick": false,
     "boxShadow": "none",
     "mobileBottomRow": 18,
-    "widgetName": "Button2",
+    "widgetName": "botao_sugestao",
     "onClick": "{{showModal('modal_sugestao');}}",
     "buttonColor": "#15803d",
     "displayName": "Button",

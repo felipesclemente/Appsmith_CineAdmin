@@ -2,7 +2,7 @@
     "resetFormOnClick": false,
     "boxShadow": "none",
     "mobileBottomRow": 15,
-    "widgetName": "Button1",
+    "widgetName": "botao_atualiza_catalogo",
     "onClick": "{{get_catalogo.run()}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "dynamicPropertyPathList": [{"key": "placement"}],
