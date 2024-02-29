@@ -34,7 +34,7 @@
       "queryParameters": [
         {
           "key": "filme",
-          "value": "eq.{{input_del.text}}"
+          "value": "eq.{{select_del.selectedOptionValue}}"
         }
       ],
       "body": "",
@@ -65,7 +65,7 @@
     "messages": [],
     "jsonPathKeys": [
       "appsmith.store.token",
-      "input_del.text"
+      "select_del.selectedOptionValue"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

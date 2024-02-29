@@ -2,7 +2,7 @@
     "resetFormOnClick": false,
     "boxShadow": "none",
     "mobileBottomRow": 53,
-    "widgetName": "Button1",
+    "widgetName": "botao_limpa_add",
     "onClick": "{{resetWidget(\"container_add\", true);}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Button",
