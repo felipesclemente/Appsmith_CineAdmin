@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 380,
+          "bottomRow": 1246.0000000000002,
           "containerStyle": "none",
           "snapRows": 76,
           "parentRowSpace": 1,
@@ -39,7 +39,7 @@
             {
               "children": [
                 {
-                  "id": "3rdto1frv2",
+                  "id": "0ereczl8hd",
                   "align": "start"
                 }
               ]
@@ -47,16 +47,16 @@
             {
               "children": [
                 {
-                  "id": "9ue6xkxdw7",
-                  "align": "center"
+                  "id": "55hpxq2npn",
+                  "align": "start"
                 }
               ]
             },
             {
               "children": [
                 {
-                  "id": "mcws2i6fw9",
-                  "align": "center"
+                  "id": "3rdto1frv2",
+                  "align": "start"
                 }
               ]
             }

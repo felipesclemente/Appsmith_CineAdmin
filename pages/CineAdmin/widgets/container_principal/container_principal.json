@@ -12,7 +12,7 @@
         "group"
     ],
     "topRow": 0,
-    "bottomRow": 21.6,
+    "bottomRow": 11.200000000000001,
     "parentRowSpace": 10,
     "type": "CONTAINER_WIDGET",
     "hideCard": false,
@@ -31,7 +31,7 @@
         "widgetName": "Canvas1",
         "displayName": "Canvas",
         "topRow": 0,
-        "bottomRow": 216,
+        "bottomRow": 112.00000000000001,
         "parentRowSpace": 1,
         "type": "CANVAS_WIDGET",
         "canExtend": false,
@@ -71,14 +71,6 @@
             {"children": [{
                 "id": "iz2ucw9ydb",
                 "align": "start"
-            }]},
-            {"children": [{
-                "id": "oia8vpk6zk",
-                "align": "center"
-            }]},
-            {"children": [{
-                "id": "x5s2x2u80o",
-                "align": "center"
             }]}
         ]
     }],

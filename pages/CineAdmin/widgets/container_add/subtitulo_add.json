@@ -1,6 +1,6 @@
 {
     "mobileBottomRow": 6,
-    "widgetName": "sub_add",
+    "widgetName": "subtitulo_add",
     "displayName": "Text",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.a47d6d5dbbb718c4dc4b2eb4f218c1b7.svg",
     "searchTags": [
@@ -17,7 +17,7 @@
     "animateLoading": true,
     "overflow": "NONE",
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-    "parentColumnSpace": 6.96875,
+    "parentColumnSpace": 19.671875,
     "dynamicTriggerPathList": [],
     "leftColumn": 0,
     "dynamicBindingPathList": [
@@ -27,19 +27,19 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Informe os dados do filme:",
-    "key": "u556500fqw",
+    "text": "Informe os dados do título:",
+    "key": "p007adhx49",
     "isDeprecated": false,
     "rightColumn": 64,
-    "textAlign": "LEFT",
+    "textAlign": "CENTER",
     "dynamicHeight": "AUTO_HEIGHT",
-    "widgetId": "49ph7a1ln5",
+    "widgetId": "x19995qm4w",
     "minWidth": 450,
     "isVisible": true,
     "fontStyle": "BOLD",
     "textColor": "#231F20",
     "version": 1,
-    "parentId": "28zeldrd2j",
+    "parentId": "35sg0yhbxv",
     "tags": [
         "Suggested",
         "Content"
