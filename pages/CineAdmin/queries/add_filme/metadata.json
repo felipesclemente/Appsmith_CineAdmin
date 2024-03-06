@@ -36,7 +36,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{\n\t\"filme\":{{input_filme_add.text}},\n\t\"ano\":{{input_ano_add.text}},\n\t\"genero\":{{input_genero_add.text}},\n\t\"descricao\":{{input_descricao_add.text}},\n\t\"poster\":{{input_url_add.text}}\n}",
+      "body": "{\n\t\"filme\":{{input_add_titulo.text}},\n\t\"ano\":{{input_add_ano.text}},\n\t\"genero\":{{input_add_genero.text}},\n\t\"descricao\":{{input_add_descricao.text}},\n\t\"poster\":{{input_add_url.text}}\n}",
       "bodyFormData": [],
       "httpMethod": "POST",
       "httpVersion": "HTTP11",
@@ -64,11 +64,11 @@
     "messages": [],
     "jsonPathKeys": [
       "appsmith.store.token",
-      "input_ano_add.text",
-      "input_descricao_add.text",
-      "input_filme_add.text",
-      "input_genero_add.text",
-      "input_url_add.text"
+      "input_add_ano.text",
+      "input_add_descricao.text",
+      "input_add_genero.text",
+      "input_add_titulo.text",
+      "input_add_url.text"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

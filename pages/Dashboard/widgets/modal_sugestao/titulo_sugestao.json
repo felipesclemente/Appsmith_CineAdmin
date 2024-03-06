@@ -1,6 +1,6 @@
 {
     "mobileBottomRow": 5,
-    "widgetName": "titulo_del",
+    "widgetName": "titulo_sugestao",
     "displayName": "Text",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.a47d6d5dbbb718c4dc4b2eb4f218c1b7.svg",
     "searchTags": [
@@ -25,19 +25,19 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Remover um filme",
-    "key": "u556500fqw",
+    "text": "Sugerir um filme",
+    "key": "ptahgzzb4i",
     "isDeprecated": false,
     "rightColumn": 58.26008968609865,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
-    "widgetId": "6a35oxdqsd",
+    "widgetId": "dqd949mppl",
     "minWidth": 450,
     "isVisible": true,
     "fontStyle": "BOLD",
     "textColor": "#231F20",
     "version": 1,
-    "parentId": "r7x1ozhycg",
+    "parentId": "dc2mkpcsze",
     "tags": [
         "Suggested",
         "Content"

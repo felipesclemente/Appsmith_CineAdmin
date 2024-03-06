@@ -13,13 +13,13 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 380,
+          "bottomRow": 984.0000000000002,
           "containerStyle": "none",
           "snapRows": 76,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 87,
+          "version": 89,
           "minHeight": 780,
           "useAutoLayout": true,
           "parentColumnSpace": 1,
@@ -39,7 +39,7 @@
             {
               "children": [
                 {
-                  "id": "3rdto1frv2",
+                  "id": "0ereczl8hd",
                   "align": "start"
                 }
               ]
@@ -47,22 +47,27 @@
             {
               "children": [
                 {
-                  "id": "9ue6xkxdw7",
-                  "align": "center"
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "id": "mcws2i6fw9",
-                  "align": "center"
+                  "id": "55hpxq2npn",
+                  "align": "start"
                 }
               ]
             }
           ]
         },
-        "layoutOnLoadActions": [],
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "CineAdmin_get_filmes",
+              "name": "get_filmes",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.token"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
         "id": "CineAdmin",
