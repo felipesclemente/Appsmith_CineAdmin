@@ -15,6 +15,7 @@
     },
     "pageId": "Dashboard",
     "actionConfiguration": {
+      "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "body": "INSERT INTO public.catalogo (\"created_at\",\"filme\",\"ano\",\"genero\",\"descricao\",\"poster\",\"filme_assistido\") VALUES ('{{(table_catalogo.newRow || {}).created_at}}','{{(table_catalogo.newRow || {}).filme}}','{{(table_catalogo.newRow || {}).ano}}','{{(table_catalogo.newRow || {}).genero}}','{{(table_catalogo.newRow || {}).descricao}}','{{(table_catalogo.newRow || {}).poster}}','{{(table_catalogo.newRow || {}).filme_assistido}}')",

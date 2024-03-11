@@ -73,7 +73,7 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1710166493717,
+    "columnUpdatedAt": 1710170426209,
     "primaryColumnId": "id",
     "defaultSelectedRowIndices": [0],
     "alignment": "start",
@@ -101,8 +101,9 @@
     "columnWidthMap": {
         "ano": 99,
         "poster": 133,
+        "filme_assistido": 143,
         "filme": 252,
-        "descricao": 220
+        "descricao": 356
     },
     "parentRowSpace": 10,
     "hideCard": false,
@@ -114,7 +115,8 @@
         {"key": "onSearchTextChanged"},
         {"key": "onSort"},
         {"key": "onAddNewRowSave"},
-        {"key": "primaryColumns.EditActions1.onSave"}
+        {"key": "primaryColumns.EditActions1.onSave"},
+        {"key": "primaryColumns.filme_assistido.onCheckChange"}
     ],
     "borderWidth": "1",
     "primaryColumns": {
@@ -136,19 +138,19 @@
             "isCellVisible": true,
             "isDerived": true,
             "textSize": "0.875rem",
-            "onSave": "{{Update_public_catalogo1.run(() => {\n            showAlert(\"Successfully saved!\");\n            Select_public_catalogo1.run()\n          }, () => {\n            showAlert(\"Unable to save!\");\n          })}}",
+            "onSave": "{{update_filme_assistido.run().then(() => {\n  showAlert('Sucesso! Informação atualizada.', '');\n}).catch(() => {\n  showAlert('Erro!', 'error');\n});}}",
             "discardButtonVariant": "TERTIARY",
             "buttonStyle": "rgb(3, 179, 101)",
             "allowCellWrapping": false,
             "index": 8,
-            "isDiscardVisible": true,
+            "isDiscardVisible": false,
             "isDiscardDisabled": "{{table_catalogo.processedTableData.map((currentRow, currentIndex) => ( !table_catalogo.updatedRowIndices.includes(currentIndex)))}}",
-            "isVisible": true,
-            "label": "Salvar / Descartar",
+            "isVisible": false,
+            "label": "Salvar alterações",
             "discardActionLabel": "Discard",
             "columnType": "editActions",
             "thousandSeparator": true,
-            "saveActionLabel": "Save",
+            "saveActionLabel": "Salvar",
             "horizontalAlignment": "LEFT",
             "isCellEditable": false,
             "decimals": 0,
@@ -327,6 +329,7 @@
             "notation": "standard",
             "alias": "filme_assistido",
             "enableSort": true,
+            "onCheckChange": "{{update_filme_assistido.run().then(() => {\n  showAlert('Sucesso! Informação atualizada.', '');\n  Select_public_catalogo1.run();\n}).catch(() => {\n  showAlert('Erro!', 'error');\n});}}",
             "isSaveVisible": true,
             "id": "filme_assistido",
             "isDisabled": false,
