@@ -1,0 +1,1 @@
+INSERT INTO public.sugeridos ("filme","ano","genero","descricao","poster") VALUES ('{{input_sugestao_titulo.text}}','{{input_sugestao_ano.text}}','{{input_sugestao_genero.text}}','{{input_sugestao_descricao.text}}','{{input_sugestao_url.text}}')
