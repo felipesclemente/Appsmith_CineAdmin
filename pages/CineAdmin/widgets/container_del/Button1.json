@@ -3,7 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 9,
     "widgetName": "Button1",
-    "onClick": "{{get_filmes.run()}}",
+    "onClick": "{{Select_public_catalogo2.run()}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "dynamicPropertyPathList": [],
     "displayName": "Button",
