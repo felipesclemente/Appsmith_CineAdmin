@@ -74,11 +74,9 @@
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [
-                "table_catalogo.searchText",
                 "table_catalogo.pageOffset",
-                "table_catalogo.sortOrder.column || 'id'",
-                "table_catalogo.pageSize",
-                "table_catalogo.sortOrder.order !== \"desc\" ? \"\" : \"DESC\""
+                "table_catalogo.searchText",
+                "table_catalogo.pageSize"
               ],
               "timeoutInMillisecond": 10000
             }

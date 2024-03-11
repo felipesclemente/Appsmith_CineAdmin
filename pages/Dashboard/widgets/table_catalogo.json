@@ -69,7 +69,7 @@
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "columnUpdatedAt": 1710171739045,
-    "primaryColumnId": "ano",
+    "primaryColumnId": "id",
     "defaultSelectedRowIndices": [0],
     "alignment": "start",
     "mobileBottomRow": 45,

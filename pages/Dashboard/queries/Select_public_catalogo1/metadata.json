@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT\n  *\nFROM\n  public.catalogo\nWHERE\n  \"filme\" ilike '%{{table_catalogo.searchText}}%'\nORDER BY\n  \"{{table_catalogo.sortOrder.column || 'id'}}\" {{table_catalogo.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"}}\nLIMIT\n  {{table_catalogo.pageSize}}\nOFFSET\n  {{table_catalogo.pageOffset}}",
+      "body": "SELECT\n  *\nFROM\n  public.catalogo\nWHERE\n  \"filme\" ilike '%{{table_catalogo.searchText}}%'\nORDER BY\n  \"ano\" DESC, filme\nLIMIT\n  {{table_catalogo.pageSize}}\nOFFSET\n  {{table_catalogo.pageOffset}}",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -38,9 +38,7 @@
     "jsonPathKeys": [
       "table_catalogo.pageOffset",
       "table_catalogo.pageSize",
-      "table_catalogo.searchText",
-      "table_catalogo.sortOrder.column || 'id'",
-      "table_catalogo.sortOrder.order !== \"desc\" ? \"\" : \"DESC\""
+      "table_catalogo.searchText"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
