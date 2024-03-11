@@ -1,0 +1,1 @@
+SELECT COUNT(*) from public.catalogo where filme ilike '%{{table_catalogo.searchText}}%';

@@ -1,0 +1,12 @@
+SELECT
+  *
+FROM
+  public.catalogo
+WHERE
+  "filme" ilike '%{{table_catalogo.searchText}}%'
+ORDER BY
+  "{{table_catalogo.sortOrder.column || 'id'}}" {{table_catalogo.sortOrder.order !== "desc" ? "" : "DESC"}}
+LIMIT
+  {{table_catalogo.pageSize}}
+OFFSET
+  {{table_catalogo.pageOffset}}

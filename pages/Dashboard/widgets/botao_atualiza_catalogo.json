@@ -3,7 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 15,
     "widgetName": "botao_atualiza_catalogo",
-    "onClick": "{{get_catalogo.run()}}",
+    "onClick": "{{Select_public_catalogo1.run()}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "dynamicPropertyPathList": [{"key": "placement"}],
     "displayName": "Button",
@@ -21,7 +21,7 @@
     "animateLoading": true,
     "parentColumnSpace": 20.46875,
     "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 23.73061863743148,
+    "leftColumn": 23.730618637431476,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
         {"key": "buttonColor"}
