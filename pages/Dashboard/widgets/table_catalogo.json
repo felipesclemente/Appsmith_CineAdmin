@@ -427,7 +427,7 @@
     "rightColumn": 64,
     "textSize": "0.875rem",
     "widgetId": "p39jokbr4b",
-    "allowAddNewRow": true,
+    "allowAddNewRow": false,
     "minWidth": 450,
     "tableData": "{{Select_public_catalogo1.data}}",
     "label": "Data",
@@ -440,6 +440,6 @@
     "isVisibleSearch": true,
     "responsiveBehavior": "fill",
     "mobileLeftColumn": 0,
-    "isVisiblePagination": true,
+    "isVisiblePagination": false,
     "verticalAlignment": "CENTER"
 }
