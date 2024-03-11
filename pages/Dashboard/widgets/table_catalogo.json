@@ -275,7 +275,7 @@
             "notation": "standard",
             "alias": "filme_assistido",
             "enableSort": true,
-            "onCheckChange": "{{update_filme_assistido.run().then(() => {\n  showAlert('Sucesso! Informação atualizada.', '');\n  Select_public_catalogo1.run();\n}).catch(() => {\n  showAlert('Erro!', 'error');\n});}}",
+            "onCheckChange": "{{update_filme_assistido.run().then(() => {\n  showAlert('Sucesso! Informação atualizada.', 'success');\n  Select_public_catalogo1.run();\n}).catch(() => {\n  showAlert('Erro!', 'error');\n});}}",
             "isSaveVisible": true,
             "id": "filme_assistido",
             "isDisabled": false,
