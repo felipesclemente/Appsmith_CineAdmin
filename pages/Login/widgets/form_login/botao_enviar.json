@@ -24,11 +24,11 @@
         {"key": "buttonColor"},
         {"key": "borderRadius"}
     ],
-    "text": "Enviar",
+    "text": "Entrar",
     "isDisabled": false,
     "key": "lot84aug9r",
     "isDeprecated": false,
-    "rightColumn": 38.06156274664562,
+    "rightColumn": 37.90769230769231,
     "isDefaultClickDisabled": true,
     "iconName": "log-in",
     "widgetId": "ffs10r8abl",

@@ -433,7 +433,7 @@
     "label": "Data",
     "searchKey": "",
     "parentId": "0",
-    "serverSidePaginationEnabled": true,
+    "serverSidePaginationEnabled": false,
     "renderMode": "CANVAS",
     "mobileTopRow": 17,
     "horizontalAlignment": "LEFT",
