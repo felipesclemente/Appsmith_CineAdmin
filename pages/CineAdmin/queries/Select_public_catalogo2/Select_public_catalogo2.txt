@@ -1,0 +1,8 @@
+SELECT
+  *
+FROM
+  public.catalogo
+WHERE
+  "filme" ilike '%{{select_del.filterText}}%'
+ORDER BY
+  "filme" ASC

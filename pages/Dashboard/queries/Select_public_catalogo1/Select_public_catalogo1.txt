@@ -1,0 +1,12 @@
+SELECT
+  *
+FROM
+  public.catalogo
+WHERE
+  "filme" ilike '%{{table_catalogo.searchText}}%'
+ORDER BY
+  "ano" DESC, filme
+LIMIT
+  {{table_catalogo.pageSize}}
+OFFSET
+  {{table_catalogo.pageOffset}}

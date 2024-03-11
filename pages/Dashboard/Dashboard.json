@@ -69,12 +69,26 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Dashboard_get_catalogo",
-              "name": "get_catalogo",
+              "id": "Dashboard_Select_public_catalogo1",
+              "name": "Select_public_catalogo1",
               "confirmBeforeExecute": false,
-              "pluginType": "API",
+              "pluginType": "DB",
               "jsonPathKeys": [
-                "appsmith.store.token"
+                "table_catalogo.pageOffset",
+                "table_catalogo.searchText",
+                "table_catalogo.pageSize"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Dashboard_Total_record_public_catalogo1",
+              "name": "Total_record_public_catalogo1",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "table_catalogo.searchText"
               ],
               "timeoutInMillisecond": 10000
             }

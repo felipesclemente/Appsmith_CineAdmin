@@ -1,0 +1,1 @@
+UPDATE public.catalogo SET "filme_assistido"= '{{table_catalogo.updatedRow.filme_assistido}}' WHERE "id"= {{table_catalogo.updatedRow.id}};

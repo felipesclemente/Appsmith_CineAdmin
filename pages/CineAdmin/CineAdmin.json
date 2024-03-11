@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 984.0000000000002,
+          "bottomRow": 1064.0000000000002,
           "containerStyle": "none",
           "snapRows": 76,
           "parentRowSpace": 1,
@@ -57,12 +57,12 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "CineAdmin_get_filmes",
-              "name": "get_filmes",
+              "id": "CineAdmin_Select_public_catalogo2",
+              "name": "Select_public_catalogo2",
               "confirmBeforeExecute": false,
-              "pluginType": "API",
+              "pluginType": "DB",
               "jsonPathKeys": [
-                "appsmith.store.token"
+                "select_del.filterText"
               ],
               "timeoutInMillisecond": 10000
             }
