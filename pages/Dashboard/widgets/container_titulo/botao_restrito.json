@@ -1,52 +1,66 @@
 {
-    "resetFormOnClick": false,
-    "boxShadow": "none",
-    "mobileBottomRow": 49,
-    "widgetName": "botao_restrito",
-    "onClick": "{{get_user_data.run(() => {\n    const userrole = get_user_data.data.app_metadata.userrole;\n    if (userrole) {\n        storeValue(\"userrole\", userrole);\n        navigateTo(\"CineAdmin\", {});\n    }\n    else {\n        showAlert(\"Erro! Esta área é exclusiva para administradores.\", \"error\");\n    }\n})}}",
-    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "dynamicPropertyPathList": [{"key": "onClick"}],
-    "displayName": "Button",
-    "iconSVG": "https://appcdn.appsmith.com/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
-    "searchTags": [
-        "click",
-        "submit"
-    ],
-    "topRow": 6.4,
-    "bottomRow": 10.4,
-    "parentRowSpace": 10,
-    "type": "BUTTON_WIDGET",
-    "hideCard": false,
-    "mobileRightColumn": 6.453,
-    "animateLoading": true,
-    "parentColumnSpace": 19.9375,
-    "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 6.100079428117554,
-    "dynamicBindingPathList": [
-        {"key": "buttonColor"},
-        {"key": "borderRadius"}
-    ],
-    "text": "Área restrita",
-    "isDisabled": false,
-    "key": "lot84aug9r",
-    "isDeprecated": false,
-    "rightColumn": 12.200158856235108,
-    "isDefaultClickDisabled": true,
-    "widgetId": "t68wx0olg4",
-    "minWidth": 120,
-    "isVisible": true,
-    "recaptchaType": "V3",
-    "version": 1,
-    "parentId": "lsul95dv8f",
-    "tags": ["Buttons"],
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "mobileTopRow": 45,
-    "responsiveBehavior": "hug",
-    "disabledWhenInvalid": false,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileLeftColumn": 0,
-    "buttonVariant": "SECONDARY",
-    "placement": "CENTER",
-    "alignment": "start"
+  "alignment": "start",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 10.4,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "SECONDARY",
+  "disabledWhenInvalid": false,
+  "displayName": "Button",
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "https://appcdn.appsmith.com/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
+  "isDefaultClickDisabled": true,
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "lot84aug9r",
+  "leftColumn": 6.100079428117554,
+  "minWidth": 120,
+  "mobileBottomRow": 49,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 6.453,
+  "mobileTopRow": 45,
+  "onClick": "{{get_user_data.run(() => {\n    const userrole = get_user_data.data.app_metadata.userrole;\n    if (userrole) {\n        storeValue(\"userrole\", userrole);\n        navigateTo(\"CineAdmin\", {});\n    }\n    else {\n        showAlert(\"Erro! Esta área é exclusiva para administradores.\", \"error\");\n    }\n})}}",
+  "parentColumnSpace": 19.9375,
+  "parentId": "lsul95dv8f",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 12.200158856235108,
+  "searchTags": [
+    "click",
+    "submit"
+  ],
+  "tags": [
+    "Buttons"
+  ],
+  "text": "Área restrita",
+  "topRow": 6.4,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "t68wx0olg4",
+  "widgetName": "botao_restrito"
 }
