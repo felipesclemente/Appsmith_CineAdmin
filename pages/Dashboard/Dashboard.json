@@ -1,111 +1,73 @@
 {
+  "gitSyncId": "65b11be21c6974552e3ca4fc_65b11bf70fef16301094617a",
   "unpublishedPage": {
-    "name": "Dashboard",
-    "slug": "dashboard",
+    "isHidden": true,
     "layouts": [
       {
-        "viewMode": false,
         "dsl": {
-          "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 1224,
-          "snapColumns": 64,
-          "detachFromLayout": true,
-          "widgetId": "0",
-          "topRow": 0,
           "bottomRow": 1649.6000061035159,
-          "containerStyle": "none",
-          "snapRows": 76,
-          "parentRowSpace": 1,
-          "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 89,
-          "minHeight": 780,
-          "useAutoLayout": true,
-          "parentColumnSpace": 1,
-          "responsiveBehavior": "fill",
+          "containerStyle": "none",
+          "detachFromLayout": true,
           "dynamicBindingPathList": [],
-          "leftColumn": 0,
-          "positioning": "vertical",
           "flexLayers": [
             {
               "children": [
                 {
-                  "id": "wgr6bw800z",
-                  "align": "start"
+                  "align": "start",
+                  "id": "wgr6bw800z"
                 }
               ]
             },
             {
               "children": [
                 {
-                  "id": "h36og7gev6",
-                  "align": "center"
+                  "align": "center",
+                  "id": "h36og7gev6"
                 },
                 {
-                  "id": "b5rj2tyah7",
-                  "align": "center"
+                  "align": "center",
+                  "id": "b5rj2tyah7"
                 }
               ]
             },
             {
               "children": [
                 {
-                  "id": "p39jokbr4b",
-                  "align": "start"
+                  "align": "start",
+                  "id": "p39jokbr4b"
                 }
               ]
             },
             {
               "children": [
                 {
-                  "id": "54h6pu6n0l",
-                  "align": "center"
+                  "align": "center",
+                  "id": "54h6pu6n0l"
                 }
               ]
-            }
-          ]
-        },
-        "layoutOnLoadActions": [
-          [
-            {
-              "id": "Dashboard_Select_public_catalogo1",
-              "name": "Select_public_catalogo1",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "table_catalogo.pageOffset",
-                "table_catalogo.searchText",
-                "table_catalogo.pageSize"
-              ],
-              "timeoutInMillisecond": 10000
             }
           ],
-          [
-            {
-              "id": "Dashboard_Total_record_public_catalogo1",
-              "name": "Total_record_public_catalogo1",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "table_catalogo.searchText"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ]
-        ],
-        "layoutOnLoadActionErrors": [],
-        "validOnPageLoadActions": true,
-        "id": "Dashboard",
-        "deleted": false,
-        "policies": [],
-        "userPermissions": []
+          "leftColumn": 0,
+          "minHeight": 780,
+          "parentColumnSpace": 1,
+          "parentRowSpace": 1,
+          "positioning": "vertical",
+          "responsiveBehavior": "fill",
+          "rightColumn": 1224,
+          "snapColumns": 64,
+          "snapRows": 76,
+          "topRow": 0,
+          "type": "CANVAS_WIDGET",
+          "useAutoLayout": true,
+          "version": 89,
+          "widgetId": "0",
+          "widgetName": "MainContainer"
+        }
       }
     ],
-    "userPermissions": [],
-    "policies": [],
-    "isHidden": true
-  },
-  "deleted": false,
-  "gitSyncId": "65b11be21c6974552e3ca4fc_65b11bf70fef16301094617a"
+    "name": "Dashboard",
+    "slug": "dashboard"
+  }
 }
